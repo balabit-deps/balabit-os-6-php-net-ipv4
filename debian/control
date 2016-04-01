@@ -1,0 +1,18 @@
+Source: php-net-ipv4
+Section: php
+Priority: optional
+Maintainer: Debian PHP PEAR Maintainers <pkg-php-pear@lists.alioth.debian.org>
+Uploaders: Thierry Randrianiriana <thierry@debian.org>, Prach Pongpanich <prachpub@gmail.com>
+Build-Depends: debhelper (>= 9), pkg-php-tools
+Standards-Version: 3.9.4
+Vcs-Git: git://anonscm.debian.org/pkg-php/php-net-ipv4.git
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-php/php-net-ipv4.git
+Homepage: http://pear.php.net/package/Net_IPv4/
+
+Package: php-net-ipv4
+Architecture: all
+Depends: php-pear, ${misc:Depends}
+Description: IPv4 network calculations and validation
+ Class used for calculating IPv4 (AF_INET family) address information
+ such as network as network address, broadcast address, and IP address
+ validity.
